@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Google Font Awesome Start-->
+  <script src="https://kit.fontawesome.com/52beec0023.js" crossorigin="anonymous"></script>
+  <!--Google Font Awesome End-->
+
+  <!--DaisyUI & Tailwind CDN Start-->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+  <!--DaisyUI & Tailwind CDN End-->
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    
+  </style>
+</head>
+<body>
+  <!--header section start here-->
+  <header class="">
+    <!--nav bar flex section-->
+    <nav class="flex justify-between p-7 container mx-auto md:justify-center lg:justify-center py-4 items-center">
+      <!--logo div-->
+      <div class="md:w-[20%] lg:w-[20%]">
+        <img class="w-24 md:w-[150px] lg:w-[150px]" src="c2-assets/logo-header.png" alt="">
+      </div>
+      <!-- ul flex bar section-->
+       <ul class="lg:flex md:flex gap-10 md:w-[50%] lg:w-[49%] justify-end items-center hidden lg:block md:block">
+        <li>
+          <a class="text-[20px] text-[#111111]" href="#">Product</a>
+        </li>
+        <li>
+          <a class="text-[20px] text-[#111111]" href="#">Services</a>
+        </li>
+        <li>
+          <a class="text-[20px] text-[#111111]" href="#">Contact Us</a>
+        </li>
+       </ul>
+       <!--icon-cart-log-flex-section-->
+       <div class="flex md:w-[30%] lg:w-[40%] gap-8 justify-center items-center hidden lg:flex md:flex lg:block md:block">
+        <!--search icon-->
+        <div>
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <!--cart icon-->
+        <div>
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+        <!--login Button-->
+        <div>
+          <button class="py-2 px-7 border-[1px] text-[20px] border-[#179800] rounded-md">Login</button>
+        </div>
+        <!--register button-->
+        <div>
+          <button class="py-[10px] px-[30px] rounded-md text-white bg-green-600">Register</button>
+        </div>
+       </div>
+       <!--Mobile Show Menu Start-->
+       <div class="md:hidden lg:hidden">
+        <i class="fa-solid fa-bars text-[30px] text-[#179800]"></i>
+       </div>
+       <!--Mobile Show Menu Start-->
+    </nav>
+    <!--mobile border line-->
+    <div class="border-[1px] border-[#179800] border-solid md:hidden lg:hidden"></div>
+  </header>
+  <!--header section End here-->
+
+  <!--main section start here-->
+  <main class="py-16">
+    <!--Banner Section Start Here-->
+    <section class="bg-gradient-to-b from-white to-[#EFEBE3]">
+      <!--Banner Content-->
+      <div class="text-center md:w-[800px] lg:md:w-[800px] mx-auto">
+        <h1 class="leading-[3rem] md:leading-[3.9rem] lg:leading-[3.9rem] text-[32px] md:text-[50px] lg:text-[50px] font-bold mb-4">Freshness <span class="text-[#179800] text-[50px] font-bold">You Can <br>
+          Count</span> On, Prices You’ll Love!</h1>
+          <p class="text-[16px] md:text-[20px] lg:text-[20px] text-[#111111] px-3 mb-8">Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!</p>
+      </div>
+      <!--Banner Image dive-->
+      <div class="text-center">
+        <img class="mx-auto" src="c2-assets/hero-vegetables.png" alt="">
+      </div>
+    </section>
+    <!--Service Section Start Here-->
+    <section>
+      <!--Service div-->
+      <div>
+        <h2 class="font-bold text-4xl text-[#179800]">Services</h2>
+      </div>
+    </section>
+  </main>
+<!--main section End here-->
+
+<!--Footer section start here-->
+  <footer>
+
+  </footer>
+<!--Footer section End here-->
+
+
+  
+</body>
+</html>
