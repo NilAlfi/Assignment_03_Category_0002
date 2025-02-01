@@ -1,5 +1,11 @@
-
-
+*{
+    margin: 0;
+    padding: 0;  
+  }
+  .josefin-sans {
+    font-family: "Josefin Sans", serif;
+    
+  }
 .vegetable_section{
 
 }
@@ -10,7 +16,7 @@
 .guaran{
     font-size: 37px;
     letter-spacing: .1rem;
-    color: #1f81cd;
+    color: green;
     text-align: center;
     font-weight: 500;
     margin-top: 50px;
